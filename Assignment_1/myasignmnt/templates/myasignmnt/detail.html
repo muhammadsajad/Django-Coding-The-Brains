@@ -1,0 +1,17 @@
+{% extends 'myasignmnt/base.html' %}
+
+{% block title %}
+Index
+{% endblock  %}
+
+{% block content %}
+
+   <h1>
+        This is Detail Page.
+        
+    </h1>
+
+   <p>
+    <a href=" {% url 'myasignmnt:index'  %} ">Go To Index Page</a>
+   </p> 
+   {% endblock  %}
